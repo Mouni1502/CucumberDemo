@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="7.811" tests="1" skipped="0" failures="0" errors="0">
-<testcase classname="user login" name="Successful Login" time="7.67">
+<testsuite name="Cucumber" time="6.819" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="user login" name="Successful Login" time="6.673">
 <system-out><![CDATA[
 Given the user is on the nopCommerce login page.............................passed
 When the user enters valid credentials (username: "gaddammounika30@gmail.com", password: "Mouni@1502").passed

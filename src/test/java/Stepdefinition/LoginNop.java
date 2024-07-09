@@ -25,8 +25,8 @@ public class LoginNop {
 
 	@When("the user enters valid credentials \\(username: {string}, password: {string})")
 	public void the_user_enters_valid_credentials_username_password(String user, String pwd) {
-		driver.findElement(By.xpath("//*[@id=\"Email\"]")).sendKeys("gaddammounika30@gmail.com");
-		driver.findElement(By.xpath("//*[@id='Password']")).sendKeys("Mouni@1502");
+		driver.findElement(By.xpath("//input[@id=\"Email\"]")).sendKeys("gaddammounika30@gmail.com");
+		driver.findElement(By.xpath("//input[@id='Password']")).sendKeys("Mouni@1502");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
 	    
