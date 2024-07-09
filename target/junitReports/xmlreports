@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="7.811" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="user login" name="Successful Login" time="7.67">
+<system-out><![CDATA[
+Given the user is on the nopCommerce login page.............................passed
+When the user enters valid credentials (username: "gaddammounika30@gmail.com", password: "Mouni@1502").passed
+And the user clicks on the Login button.....................................passed
+Then the user should be redirected to the My Account page...................passed
+And the user should see a welcome message...................................passed
+]]></system-out>
+</testcase>
+</testsuite>
